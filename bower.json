@@ -1,0 +1,22 @@
+{
+  "name": "cgx-promise",
+  "description": "Minimal promise library",
+  "main": "dist/cgx-promise.min.js",
+  "authors": [
+    "Nicolas Gonzalvez <n.gonzalvez@outlook.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "promise",
+    "async",
+    "lightweight"
+  ],
+  "homepage": "https://github.com/ngonzalvez/cgx-promise",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
