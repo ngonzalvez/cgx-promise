@@ -29,18 +29,19 @@ var P = Promise.prototype;
  */
 P.resolve = function() {
     var args = arguments,
-        p = this;
+        promise = this;
 
     try {
-        for (var i = 0, l = p._t.length; i < l; i++) {
-            args = [p._t[i].apply(p._o, args)];
+        for (var i = 0, l = promise._t.length; i < l; i++) {
+            args = [promise._t[i].apply(promise._o, args)];
         }
     } catch(err) {
-        if (!p._c.length) {
+        // If there are no catch callbacks re-throw the error.
+        if (!promise._c.length) {
             throw err;
         }
 
-        p.reject(err);
+        promise.reject(err);
     }
 };
 
@@ -53,8 +54,8 @@ P.resolve = function() {
  * @param {Object} err  The error data objcct.
  */
 P.reject = function(err) {
-    for (var i = 0, p = this, l = p._c.length; i < l; i++) {
-        p._c[i].call(p._o, err);
+    for (var i = 0, promise = this, l = promise._c.length; i < l; i++) {
+        promise._c[i].call(promise._o, err);
     }
 };
 
