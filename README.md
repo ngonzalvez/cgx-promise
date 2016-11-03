@@ -57,6 +57,6 @@ myAsyncFunc()
 Well, this library is designed not to be fully-featured just to save space, which is a really valuable asset in front-end web development. However, if you are working with node.js, then you don't have to download the libraries each time you execute the code or each time a new request arrives. Therefore, since you don't have that restriction, I would advice you to use a full-featured promise library instead.
 
 
-## Sugestions & requests
+## Sugestions & feature requests
 
 If you have any suggestions on how to improve this library or a feature that you consider should be part of this library, please create a new issue to discuss it. If we decide that it should be part of the library, I will gladly implement it.
