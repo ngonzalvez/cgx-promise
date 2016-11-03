@@ -1,0 +1,23 @@
+{
+  "name": "cgx-promise",
+  "version": "0.1.0",
+  "description": "Minimal promise library",
+  "main": " ",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "keywords": [
+    "promise",
+    "async",
+    "lightweight"
+  ],
+  "author": "Nicolas Gonzalvez <n.gonzalvez@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
