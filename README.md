@@ -39,3 +39,5 @@ myAsyncFunc()
 * Multiple then() which will be executed in the same order they are declared.
 * The catch() method will catch any call to reject() or any exception raised by a then().
 * Methods are chainable like in the example above.
+* The value returned by a then() will be the first argument for the next then().
+* Shared context for all then(). That is, if you store something in the "this" reference in a then(), it will be available next then().
