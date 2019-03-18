@@ -4,7 +4,7 @@ This is a minimal implementation of a Promise in Javascript.
 
 ## Why using this library?
 
-It's simple: because it weights 413 bytes.
+It's simple: because it weights 262 bytes compressed.
 
 If you're looking for a Promise library with lots of functionalities, you are in the wrong place. However, if you need just a simple Promise library and don't want to add several kilobytes to your already big enough bundle, then this is it.
 
