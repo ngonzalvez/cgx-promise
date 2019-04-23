@@ -2,6 +2,8 @@
 
 This is a minimal implementation of a Promise in Javascript.
 
+NOTE: this library is deprecated. You should use the native Promise bundled with the browser.
+
 ## Why using this library?
 
 It's simple: because it weights 262 bytes compressed.
